@@ -12,24 +12,24 @@ The purpose of this analysis is to make changes recommended by the beta testers 
 
 ## Results
 
-- Deliverable 1: 
-   -Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data  gathered in this module, use API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
+***Deliverable 1: Retrieve Weather Data***
+Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data gathered in this module, use API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
 
 Figure 1:
 
 ![Figure_1](https://raw.githubusercontent.com/krismbah/PyBer_Analysis/main/analysis/Fig1.png)
 
 
-- Deliverable 2: 
-     -Use input statements to retrieve customer weather preferences, then use those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
+***Deliverable 2: Create a Customer Travel Destinations Map***
+Use input statements to retrieve customer weather preferences, then use those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
 
 Figure 2:
 
 ![Figure_2](https://raw.githubusercontent.com/krismbah/PyBer_Analysis/main/analysis/Fig1.png)
 
 
-- Deliverable 3: Create a Customer Travel Destinations Map.
-   -Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data  gathered in this module, use API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
+***Deliverable 3: Create a Travel Itinerary Map.***
+Use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. Then, create a marker layer map with a pop-up marker for each city on the itinerary.
 
 Figure 3:
 
