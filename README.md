@@ -4,7 +4,7 @@
 
 The purpose of this analysis is to make changes recommended by the beta testers to the PlanMyTrip app. The following tasks are to be completed: 
 
-1. Adding the weather description to the weather data you’ve already retrieved in this module.
+1. Adding the weather description to the weather data.
 2. Have the beta testers use input statements to filter the data for their weather preferences (Min temp = 60, Max temp = 90).
 3. Identify potential travel destinations and nearby hotels.
 4. From the list of potential travel destinations, have the beta testers choose four cities to create a travel itinerary.
@@ -58,6 +58,6 @@ To summarize, the following were changes made to improve the PlanMyTrip app:
 8. A Google map with a marker layer was generated.
 9. The aforementioned csv of vaction cities was then used to create a vaction dataframe.
 10. Four cities from the map of the dataframe were picked to create a vacation itinerary route to travel between the four cities.
-11. A direction layer map using the start and end latitude-longitude pairs. Mode of travel chosen was "Bicycling".
+11. A direction layer map using the start and end latitude-longitude pairs was created. Mode of travel chosen was "Bicycling".
 12. A marker layer map between the four cities was created and used to combine the four city DataFrames into one DataFrame with the concat() function.
 13. Maps of the bicycling route between the four cities and a map of the region were created.
