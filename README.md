@@ -46,15 +46,18 @@ Figure 5:
 
 ## Summary
 
-To summarize, the following were changes made to the PlanMyTrip app:
+To summarize, the following were changes made to improve the PlanMyTrip app:
 
 1. A set of 2000 random latitude and longitude cominations were generated and added to a list.
 2. A request for Open Weather Map's API was run for each of those cities and data was parsed regarding max temperature, humidity, cloudiness, wind speed, country, and weather description.
 3. 703 rows of data were generated and converted to a Pandas DataFrame. This dataframe then was used to create a csv file.
 4. The csv file was imported and beta testers were prompted to chose a minimum and maximum location temperature of cities for vacation. The following cities were then created into a dataframe of preferred cities. The data was cleaned of rows with missing data.
 5. A request for Google's API was run for each of those cities to search for hotels with 5000 meters.
-6.The aforementioned process generated 414 cities. The data was created into a dtaframe. Locations without a hotel name were removed.
-
-dfa
-
-
+6. The aforementioned process generated 414 cities. The data was created into a dataframe. Locations without a hotel name were removed.
+7. The aforementioned dataframe was used to generate a csv.
+8. A Google map with a marker layer was generated.
+9. The aforementioned csv of vaction cities was then used to create a vaction dataframe.
+10. Four cities from the map of the dataframe were picked to create a vacation itinerary route to travel between the four cities.
+11. A direction layer map using the start and end latitude-longitude pairs. Mode of travel chosen was "Bicycling".
+12. A marker layer map between the four cities was created and used to combine the four city DataFrames into one DataFrame with the concat() function.
+13. Maps of the bicycling route between the four cities and a map of the region were created.
