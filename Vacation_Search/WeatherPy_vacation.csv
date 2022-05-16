@@ -2,7 +2,7 @@ City_ID,City,Country,Max Temp,Current Description,Lat,Lng,Hotel Name
 3,Kapaa,US,82.38,clear sky,22.0752,-159.319,Sheraton Kauai Coconut Beach Resort
 4,Mersing,MY,89.51,scattered clouds,2.4312,103.8405,Timotel Hotel
 6,Bambous Virieux,MU,73.65,scattered clouds,-20.3428,57.7575,Casa Tia Villa
-9,Saint Anthony,US,66.13,clear sky,45.0205,-93.218,Holiday Inn Express Roseville-St. Paul
+9,Saint Anthony,US,66.13,clear sky,45.0205,-93.218,"Holiday Inn Express Roseville-St. Paul, an IHG Hotel"
 13,Rikitea,PF,76.15,overcast clouds,-23.1203,-134.9692,People ThankYou
 14,Shache,CN,70.93,overcast clouds,38.4167,77.2406,Delong Hotel
 16,Hays,US,82.74,broken clouds,30.0502,-98.0336,Sinya on Lone Man Creek
@@ -95,7 +95,7 @@ City_ID,City,Country,Max Temp,Current Description,Lat,Lng,Hotel Name
 190,Ilo,PE,63.95,scattered clouds,-17.6394,-71.3375,Torreblanca Hotel
 192,Sanand,IN,88.02,clear sky,22.9833,72.3833,OYO Flagship 22887 Hotel Prerna Narmada Vasahat
 195,Kumphawapi,TH,89.89,broken clouds,17.1087,103.0149,ลีลาวดี รีสอร์ท
-196,Cabo San Lucas,MX,83.61,overcast clouds,22.8909,-109.9124,Hotel Tesoro Los Cabos
+196,Cabo San Lucas,MX,83.61,overcast clouds,22.8909,-109.9124,Vista Roof Restaurant
 197,Vila Velha,BR,73.35,broken clouds,-20.3297,-40.2925,Hotel Vitória Palace
 198,Tervel,BG,61.23,overcast clouds,43.75,27.4,Хотели Тервел - Хотел Алгара
 200,Betulia,CO,63.37,overcast clouds,6.1128,-75.9838,hotel panorama betulia
