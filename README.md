@@ -1,6 +1,6 @@
 # World_Weather_Analysis
 
-## Overview of the PyBer Analysis
+## Overview
 
 The purpose of this analysis is to make changes recommended by the beta testers to the PlanMyTrip app. The following tasks are to be completed: 
 
@@ -17,7 +17,7 @@ Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest ci
 
 Figure 1:
 
-![Figure_1](https://raw.githubusercontent.com/krismbah/PyBer_Analysis/main/analysis/Fig1.png)
+![City_Data_Df](https://raw.githubusercontent.com/krismbah/World_Weather_Analysis/main/Weather_Database/City_Data_Df.png)
 
 
 ***Deliverable 2: Create a Customer Travel Destinations Map***
@@ -25,25 +25,36 @@ Use input statements to retrieve customer weather preferences, then use those pr
 
 Figure 2:
 
-![Figure_2](https://raw.githubusercontent.com/krismbah/PyBer_Analysis/main/analysis/Fig1.png)
+![Preferred_Cities_Df](https://raw.githubusercontent.com/krismbah/World_Weather_Analysis/main/Vacation_Search/Preferred_Cities.png)
+
+Figure 3:
+
+![WeatherPy_Vacation_Map](https://raw.githubusercontent.com/krismbah/World_Weather_Analysis/main/Vacation_Search/WeatherPy_vacation_map.png)
 
 
 ***Deliverable 3: Create a Travel Itinerary Map.***
 Use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. Then, create a marker layer map with a pop-up marker for each city on the itinerary.
 
-Figure 3:
+Figure 4:
 
-![Figure_3](https://raw.githubusercontent.com/krismbah/PyBer_Analysis/main/analysis/Fig1.png)
+![WeatherPy_Travel_Map](https://raw.githubusercontent.com/krismbah/World_Weather_Analysis/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+
+Figure 5:
+
+![WeatherPy_Travel_Map_Markers](https://raw.githubusercontent.com/krismbah/World_Weather_Analysis/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
 
 
 ## Summary
 
-To summarize, data from for the first quarter of 2019. The following observations were made:
+To summarize, the following were changes made to the PlanMyTrip app:
 
-1. Total Fares remained relatively flat across all three city types.
-2. Total Fares appear to have the highest growth in Suburban cities.
-3. Urban ci
+1. A set of 2000 random latitude and longitude cominations were generated and added to a list.
+2. A request for Open Weather Map's API was run for each of those cities and data was parsed regarding max temperature, humidity, cloudiness, wind speed, country, and weather description.
+3. 703 rows of data were generated and converted to a Pandas DataFrame. This dataframe then was used to create a csv file.
+4. The csv file was imported and beta testers were prompted to chose a minimum and maximum location temperature of cities for vacation. The following cities were then created into a dataframe of preferred cities. The data was cleaned of rows with missing data.
+5. A request for Google's API was run for each of those cities to search for hotels with 5000 meters.
+6.The aforementioned process generated 414 cities. The data was created into a dtaframe. Locations without a hotel name were remove.
 
-![Summary_Chart](https://raw.githubusercontent.com/krismbah/PyBer_Analysis/main/analysis/Challenge_fare_summary.png)
+dfa
 
-![Figure_8](https://raw.githubusercontent.com/krismbah/PyBer_Analysis/main/analysis/Fig8.png)
+
