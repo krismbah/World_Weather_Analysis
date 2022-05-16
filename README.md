@@ -13,7 +13,7 @@ The purpose of this analysis is to make changes recommended by the beta testers 
 ## Results
 
 - Deliverable 1: 
--   Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data  gathered in this module, use API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
+   -Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data  gathered in this module, use API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
 
 Figure 1:
 
@@ -21,7 +21,7 @@ Figure 1:
 
 
 - Deliverable 2: 
--   Use input statements to retrieve customer weather preferences, then use those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
+   -Use input statements to retrieve customer weather preferences, then use those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
 
 Figure 2:
 
@@ -29,7 +29,7 @@ Figure 2:
 
 
 - Deliverable 3: Create a Customer Travel Destinations Map.
--   Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data  gathered in this module, use API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
+   -Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data  gathered in this module, use API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
 
 Figure 3:
 
