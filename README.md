@@ -53,7 +53,7 @@ To summarize, the following were changes made to the PlanMyTrip app:
 3. 703 rows of data were generated and converted to a Pandas DataFrame. This dataframe then was used to create a csv file.
 4. The csv file was imported and beta testers were prompted to chose a minimum and maximum location temperature of cities for vacation. The following cities were then created into a dataframe of preferred cities. The data was cleaned of rows with missing data.
 5. A request for Google's API was run for each of those cities to search for hotels with 5000 meters.
-6.The aforementioned process generated 414 cities. The data was created into a dtaframe. Locations without a hotel name were remove.
+6.The aforementioned process generated 414 cities. The data was created into a dtaframe. Locations without a hotel name were removed.
 
 dfa
 
